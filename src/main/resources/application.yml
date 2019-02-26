@@ -1,0 +1,8 @@
+ngx:
+  proxyCachePath: C:\\Users\\god\\Desktop\\cache
+#  proxyCachePath: /usr/local/nginx/cache
+  proxyPurgeApi: https://cdn1.chinfeng.net/purge
+server:
+  port: 8456
+  servlet:
+    context-path: /ngx
